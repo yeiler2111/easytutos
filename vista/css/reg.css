@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Noto Sans', sans-serif;
+}
+body{
+    display: flexbox;
+    width: 100%;
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+}
+#cuerpo{
+    width: 100%;
+    height: 100%;
+}
+#marca{
+    float: left;
+    background-color: #fd834e;
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    position:absolute;
+}
+#marca #imagen img{
+    max-width: 100%;
+    max-height: 100%;
+}
+#marca #imagen{
+    display: block;
+    margin: 0px auto;
+    width: 80%;
+}
+
+#ventanaRegistro{
+    display: flex;
+    float: right;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/background.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    width:80%;
+    height:100vh;
+}
+
+#ventanaRegistro form #datos label input{
+    padding: 10px;
+    margin: 0 auto;
+    width: 350px;
+    height: 30px;
+    font-size: 25px;
+    color: black;
+    border:none;
+}
+#ventanaRegistro form #datos label input::placeholder{
+    color: #bbb;
+}
+#datos{
+    display: grid;
+    background-color: white; 
+    border-radius: 20px;
+    text-align: center;
+    align-content: center;
+    margin: 30px;
+    padding: 20px;  
+    clear: both;    
+}
+
+label{
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-align: initial;
+}
+
+#ventanaRegistro form #reg{
+    border:none;
+    color: white;
+    background-color: #f77137;
+    width: 100px;
+    height: 50px;
+    font-weight: bold;
+    margin: 15px auto;
+    font-size: 20px;
+    border-radius: 10px;
+}                    
+#ventanaRegistro form #ini{
+    color:white;
+    border:none;
+    background-color: #768fa5;
+    width: 120px;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 135px;
+}
+/*#ventanaRegistro form #blog{
+    margin: 400px;
+
+}*/
+#ventanaRegistro form #reg:hover{
+    filter: brightness(125%);
+    transition: 0.2s;
+}
+#ventanaRegistro form #ini:hover{
+    filter: brightness(125%);
+    transition: 0.2s;
+}
+#ventanaRegistro a{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+    
+}
+
+#ventanaRegistro a:hover{
+    text-decoration: underline;
+    
+}

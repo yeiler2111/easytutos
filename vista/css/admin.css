@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Noto Sans', sans-serif;
+}
+html{
+    min-height: 100%;
+    width: 100%;
+}
+
+body{
+    display: flex;
+    width: 100%;
+    min-height: 100%;
+    overflow: auto;
+    scroll-behavior: smooth;
+}
+div{
+    display: block;
+    word-wrap: break-word;
+}
+
+#cuerpo{
+    width: 100%;
+    height: 100%;
+}
+#marca{
+    float: left;
+    background-color: #fd834e;
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+
+#marca img{
+    width: 100%;
+    margin-bottom: 50px;
+}
+#logo{
+    
+    width: 80%;
+}
+#navegacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#navegacion .menu{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+#navegacion .menu .nav-link{
+    color: white;
+    font-size: 20px;
+}
+#navegacion .menu .nav-link:hover{
+    text-decoration: underline;
+}
+ul{
+    list-style: none;   
+}
+#navegacion .menu .menuitem{
+    margin-bottom: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#monitores{
+    display: flex;
+    justify-content: center;  
+}
+
+#grid{
+    display: grid;
+    width:80%;
+    margin-left:20%;
+    height: 100%;
+}
+#moni{
+    color: #fd834e;
+    font-size: 60px;
+    text-align: center;
+    font-weight:bold;
+    margin-top: 10px;
+}
+
